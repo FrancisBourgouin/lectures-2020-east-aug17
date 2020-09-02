@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <% if(Math.round(Math.random())) { %>
+    <h1>Super secret page !</h1>
+    <% } else { %>
+    <h1>This ain't a secret page!</h1>
+    <% } %>
+
+    <% if(fullName) { %>
+    <h2>Hello <%= fullName %></h2>
+    <% } else { %>
+    <h2>Hello stranger</h1>
+        <% } %>
+</body>
+
+</html>
